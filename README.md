@@ -1,3 +1,3 @@
 # portfolio
 
-A revised version of my website made with Vue.js.
+A revised version of my website, done in Vue.js
