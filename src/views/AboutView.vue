@@ -1,5 +1,9 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <v-card
+      title="hi there, my name is deanna (she/her)"
+      subtitle=""
+    >
+    </v-card>
   </div>
 </template>

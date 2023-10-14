@@ -5,7 +5,6 @@
     "strict": true,
     "jsx": "preserve",
     "moduleResolution": "node",
-    "experimentalDecorators": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -37,5 +36,14 @@
   ],
   "exclude": [
     "node_modules"
+  ], 
+  "types": [
+    "vuetify"
+  ],
+  
+  // then add this
+  "typeRoots": [
+    "./node_modules/@types",
+    "./node_modules/vuetify/types"
   ]
 }
